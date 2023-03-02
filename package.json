@@ -1,0 +1,22 @@
+{
+  "name": "javascript-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "loops-exersise.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chelsey-g/javascript-exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chelsey-g/javascript-exercises/issues"
+  },
+  "homepage": "https://github.com/chelsey-g/javascript-exercises#readme",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
