@@ -20,17 +20,20 @@
 //     statement
 //     }
 
-function timeGreeting() {
-  let hour = 10;
+/**
+ * Returns a greeting given a time
+ *
+ * @param hint hour
+ * @returns string
+ */
+function timeGreeting(hour) {
   if (hour >= 6 && hour < 12) {
-    console.log("Good morning!");
-  }
-  if (hour <= 12 && hour < 6) {
-    console.log("Good afternoon!");
+    return "Good morning!";
+  } else if (hour >= 12 && hour < 18) {
+    return "Good afternoon!";
   } else {
-    console.log("Good evening!");
+    return "Good evening!";
   }
-  return timeGreeting();
 }
 
 module.exports = timeGreeting;
